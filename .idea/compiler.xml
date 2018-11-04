@@ -9,8 +9,5 @@
         <module name="nettystudy" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="nettystudy" target="1.7" />
-    </bytecodeTargetLevel>
   </component>
 </project>
