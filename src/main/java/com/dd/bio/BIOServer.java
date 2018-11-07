@@ -21,7 +21,7 @@ public class BIOServer {
             System.out.println("服务端已启动，端口号:" + port);
             while(true){
                 Socket socket = serverSocket.accept();
-                new Thread(new ServerHandler(socket)).start();
+                new Thread(new DDServerHandler(socket)).start();
             }
         }finally {
 
